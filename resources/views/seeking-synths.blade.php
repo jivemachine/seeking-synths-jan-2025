@@ -174,7 +174,7 @@
     </div>
 
     <!-- Gradient at bottom of the page -->
-
+    <div class="w-full h-auto bg-gradient-to-t from-[#005F98] to-transparent py-16"></div>
 
 
     <!-- js -->
