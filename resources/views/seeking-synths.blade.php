@@ -108,8 +108,73 @@
 
     <!-- Large image -->
     <div class="max-w-screen-xl px-4 py-8 mx-auto">
-        <img src="{{ asset('images/') }}" alt="">
+        <img src="{{ asset('images/closeup.png') }}" alt="Closeup Image" class="w-full h-auto rounded-tl[100px]" />
     </div>
+
+    <!-- Text before two side-by-side images & Get in Touch button -->
+    <div class="max-w-2xl px-4 py-8 mx-auto text-center">
+        <p class="font-helvetica font-normal text-base md:text-lg lg:text-xl tracking-[0.04em]">
+            The show delves into the guests' passion for vintage synthesizers and the distinctive sounds
+            they create, revealing the stories behind the music, the musicians, and these rare instruments.
+            Musicians will marvel at the impressive collections, while non-musicians will enjoy uncovering
+            the artists behind some of their favorite tracks.
+        </p>
+
+        <!-- Get in Touch Button -->
+        <div class="my-8">
+            <button
+                class="px-6 py-2 font-medium text-white transition bg-blue-600 rounded-full font-helvetica hover:bg-blue-700">
+                Get in Touch
+            </button>
+        </div>
+    </div>
+
+
+    <!-- Two images side by side -->
+    <div class="grid max-w-screen-xl grid-cols-1 gap-4 px-4 py-8 mx-auto md:grid-cols-2">
+        <img src="{{ asset('images/Kaela-in-action.png') }}" alt="Kaela Sinclair from M83"
+            class="w-full h-auto rounded-tl-[100px]" />
+        <img src="{{ asset('images/Joe-in-action.png') }}" alt="Joe Berry from M83"
+            class="w-full h-auto rounded-tl-[100px]" />
+    </div>
+
+    <!-- Text Below Two Images (Kaela Sinclair / Joe Berry) -->
+    <div class="max-w-3xl px-4 py-8 mx-auto text-center">
+        <p class="font-helvetica font-bold text-xl md:text-2xl lg:text-3xl tracking-[0.04em]">
+            Kaela Sinclair &amp; Joe Berry <br /> - music group M83
+            <span class="font-normal">
+                (episode photos)
+            </span>
+        </p>
+    </div>
+
+    <!-- Two more images (Little Tony Clifton / Jesse Beaman) -->
+    <div class="grid max-w-screen-xl grid-cols-1 gap-4 px-4 py-8 mx-auto md:grid-cols-2">
+        <img src="{{ asset('images/little-tony.png') }}" alt="Little Tony Clifton"
+            class="w-full h-auto rounded-tl-[100px]" />
+        <img src="{{ asset('images/Kaela-Sinclair.png') }}" alt="Kaela & Jesse looking at the sunset"
+            class="w-full h-auto rounded-tl-[100px] rotate-180 md:rotate-0" />
+    </div>
+
+    <!-- Text below little tony & sunset photo -->
+    <div class="max-w-3xl px-4 py-8 mx-auto text-center">
+        <p class="font-helvetica font-bold text:xl md:text-2xl lg:text-3xl tracking-[0.04em]">
+            Little Tony Clifton <br />
+            Jesse Beamen - Seeking Synths host
+            <span class="font-normal">
+                (episode photos)
+            </span>
+        </p>
+    </div>
+
+    <!-- Single Large Image Below -->
+    <div class="max-w-screen-xl px-4 py-8 mx-auto">
+        <img src="{{ asset('images/hiking.png') }}" alt="Jesse, Joe, and Kaela hiking"
+            class="w-full h-auto rounded-tl-[100px]" />
+    </div>
+
+    <!-- Gradient at bottom of the page -->
+
 
 
     <!-- js -->
