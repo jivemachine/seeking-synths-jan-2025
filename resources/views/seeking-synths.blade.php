@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seeking Synths | Exploring Vintage Synthesizers with Renowned Musicians</title>
+    <meta name="description"
+        content="Seeking Synths is a captivating video series where the host explores musicians' collections of vintage synthesizers and how they've shaped their music.">
+    <meta name="keywords"
+        content="Seeking Synths, vintage synthesizers, music, musicians, video series, Syntaur, synthesizers">
+    <meta name="author" content="Seeking Synths">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.seekingsynths.com">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Seeking Synths | Exploring Vintage Synthesizers with Renowned Musicians">
+    <meta property="og:description"
+        content="Join host Jesse Beaman as he explores musicians' collections of vintage synthesizers.">
+    <meta property="og:image" content="https://www.seekingsynths.com/images/logo.png">
+    <meta property="og:url" content="https://www.seekingsynths.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Seeking Synths | Exploring Vintage Synthesizers with Renowned Musicians">
+    <meta name="twitter:description"
+        content="Join host Jesse Beaman as he explores musicians' collections of vintage synthesizers.">
+    <meta name="twitter:image" content="https://www.seekingsynths.com/images/logo.png">
+
+
+    <!-- Structured Data Markup -->
+    <script type="application/ld+json">
+    {
+          "@context": "https://schema.org",
+          "@type": "TVSeries",
+          "name": "Seeking Synths",
+          "description": "A video series where host Jesse Beaman explores renowned musicians' collections of vintage synthesizers.",
+          "genre": "Documentary, Music",
+          "creator": {
+            "@type": "Person",
+            "name": "Sam Mims"
+          },
+          "actor": {
+            "@type": "Person",
+            "name": "Jesse Beaman"
+          },
+          "director": {
+            "@type": "Person",
+            "name": "Lucas Fowler"
+          },
+          "image": "https://www.seekingsynths.com/images/logo.png",
+          "url": "https://www.seekingsynths.com",
+          "sameAs": [
+            "https://www.facebook.com/seekingsynths",
+            "https://www.instagram.com/seekingsynths",
+            "https://www.twitter.com/seekingsynths"
+          ]
+        }
+    </script>
+
+    <!-- Tailwind CSS -->
+    @vite('resources/css/app.css')
+</head>
+
+<body class="w-full mx-auto text-white bg-black">
+    <!-- Header Image with gradient -->
+    <div class="relative w-full h-auto">
+        <img src="{{ asset('images/seeking-synths-tv-mockup-header-img.png') }}" alt="Header Image"
+            class="object-cover w-full h-auto" />
+
+        <!-- gradient overlay -->
+        <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
+
+        <!-- Seeking Synths Logo -->
+        <img src="{{ asset('images/logo.png') }}" alt="Seeking Synths Logo"
+            class="absolute top-8 left-8 w-[134px] h-[134px] object-contain" />
+    </div>
+
+    <!-- Text Below Header -->
+    <div class="max-w-3xl px-4 py-8 mx-auto text-center">
+        <!-- Seeking Synths in bold -->
+        <p class="font-helvetica font-bold text-2xl md:text-3xl lg:text-4xl tracking-[0.04em] mb-4">
+            Seeking Synths
+        </p>
+
+        <!-- Follow Text with normal weight -->
+        <p class="font-helvetica font-normal text-2xl md:text-3xl lg-text:4xl tracking-0.04em">
+            is a captivating video series featuring 30-minute episodes in the spirit of Anthony Bourdain,
+            where the host visits renowned musicians to explore their collections of vintage synthesizers
+            and uncover how these iconic instruments have shaped their music.
+        </p>
+    </div>
+
+    <!-- Title & Credits Section -->
+    <div class="max-w-3xl px-4 py-8 mx-auto text-center">
+        <!-- Title SEEKING SYNTHS (BOLD) -->
+        <h1 class="font-helvetica font-bold text-4xl md:text-5xl lg:text-6xl tracking-[0.04em] mb-4">
+            SEEKING SYNTHS
+        </h1>
+        <!-- Host/Director/Editor etc. -->
+        <p class="font-helvetica font-normal text-base md:text-lg lg:text-xl tracking-[0.04em]">
+            Host: Jesse Beaman<br />
+            Director: Sam Mims<br />
+            Editor & Director of Photography: Lucas Fowler
+        </p>
+    </div>
+
+    <!-- Large image -->
+    <div class="max-w-screen-xl px-4 py-8 mx-auto">
+        <img src="{{ asset('images/') }}" alt="">
+    </div>
+
+
+    <!-- js -->
+    @vite('resources/js/app.js')
+</body>
+
+</html>
