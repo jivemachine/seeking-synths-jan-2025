@@ -73,7 +73,7 @@
         <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
 
         <!-- Seeking Synths Logo -->
-        <img src="{{ asset('images/logo.png') }}" alt="Seeking Synths Logo"
+        <img src="{{ asset('images/Seeking-Synths-Logo-Eye-Blink.gif') }}" alt="Seeking Synths Logo"
             class="absolute top-8 left-8 w-[134px] h-[134px] object-contain" />
     </div>
 
