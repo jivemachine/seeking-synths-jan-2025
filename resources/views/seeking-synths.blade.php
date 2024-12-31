@@ -153,7 +153,7 @@
         <img src="{{ asset('images/little-tony.png') }}" alt="Little Tony Clifton"
             class="w-full h-auto rounded-tl-[100px]" />
         <img src="{{ asset('images/Kaela-Sinclair.png') }}" alt="Kaela & Jesse looking at the sunset"
-            class="w-full h-auto rounded-tl-[100px] rotate-180" />
+            class="w-full h-auto rounded-tl-[100px]" />
     </div>
 
     <!-- Text below little tony & sunset photo -->
