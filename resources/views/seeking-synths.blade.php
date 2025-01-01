@@ -36,28 +36,29 @@
           "@type": "TVSeries",
           "name": "Seeking Synths",
           "description": "A video series where host Jesse Beaman explores renowned musicians' collections of vintage synthesizers.",
-          "genre": "Documentary, Music",
-          "creator": {
+          "genre": ["Documentary", "Music"],
+          "creator": [{
             "@type": "Person",
             "name": "Sam Mims"
-          },
-          "actor": {
+          }],
+          "actor": [{
             "@type": "Person",
             "name": "Jesse Beaman"
-          },
-          "director": {
+          }],
+          "director": [{
             "@type": "Person",
             "name": "Lucas Fowler"
-          },
+          }],
           "image": "https://www.seekingsynths.com/images/logo.png",
           "url": "https://www.seekingsynths.com",
           "sameAs": [
             "https://www.facebook.com/seekingsynths",
             "https://www.instagram.com/seekingsynths",
             "https://www.twitter.com/seekingsynths"
-          ]
+          ],
+          "mainEntityOfPage": "https://www.seekingsynths.com"
         }
-    </script>
+        </script>
 
     <!-- Tailwind CSS -->
     @vite('resources/css/app.css')
