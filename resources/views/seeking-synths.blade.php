@@ -123,8 +123,6 @@
                 and uncover how these iconic instruments have shaped their music.
             </span>
         </p>
-
-
     </div>
 
     <!-- Large image -->
@@ -144,10 +142,10 @@
 
         <!-- Get in Touch Button -->
         <div class="my-8">
-            <button
-                class="px-6 py-2 font-medium text-white transition bg-blue-600 rounded-full font-helvetica hover:bg-blue-700">
-                Get in Touch
-            </button>
+            <a href="mailto:contact@seekingsynths.com"
+                class="px-6 py-2 font-bold text-black bg-white rounded-full font-helvetica">
+                GET IN TOUCH
+            </a>
         </div>
     </div>
 
@@ -163,7 +161,8 @@
     <!-- Text Below Two Images (Kaela Sinclair / Joe Berry) -->
     <div class="max-w-3xl px-4 py-8 mx-auto text-center">
         <p class="font-helvetica font-bold text-xl md:text-2xl lg:text-3xl tracking-[0.04em]">
-            Kaela Sinclair &amp; Joe Berry <br /> - music group M83
+            Kaela Sinclair &amp; Joe Berry <br />
+            - music group M83 <br />
             <span class="font-normal">
                 (episode photos)
             </span>
@@ -182,7 +181,7 @@
     <div class="max-w-3xl px-4 py-8 mx-auto text-center">
         <p class="font-helvetica font-bold text:xl md:text-2xl lg:text-3xl tracking-[0.04em]">
             Little Tony Clifton <br />
-            Jesse Beaman - Seeking Synths host
+            Jesse Beaman - Seeking Synths host <br />
             <span class="font-normal">
                 (episode photos)
             </span>
