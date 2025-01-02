@@ -128,7 +128,7 @@
 
     <!-- Large image -->
     <div class="max-w-screen-xl px-4 py-8 mx-auto">
-        <img src="{{ asset('images/joe-berry-keyboardcloseup.png') }}" alt="Closeup of Joe Berry playing keyboard"
+        <img src="{{ asset('images/joe-berry-keyboard-closeup.png') }}" alt="Closeup of Joe Berry playing keyboard"
             class="w-full h-auto rounded-tl[100px]" />
     </div>
 
