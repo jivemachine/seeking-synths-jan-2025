@@ -97,6 +97,20 @@
             class="absolute top-8 left-8 w-[134px] h-[134px] object-contain" />
     </div>
 
+    <!-- Title & Credits Section -->
+    <div class="max-w-3xl px-4 py-8 mx-auto text-center">
+        <!-- Title SEEKING SYNTHS (BOLD) -->
+        <h1 class="font-helvetica font-bold text-4xl md:text-5xl lg:text-6xl tracking-[0.04em] mb-4">
+            SEEKING SYNTHS
+        </h1>
+        <!-- Host/Director/Editor etc. -->
+        <p class="font-helvetica font-normal text-base md:text-lg lg:text-xl tracking-[0.04em]">
+            Host: Jesse Beaman<br />
+            Director: Sam Mims<br />
+            Editor & Director of Photography: Lucas Fowler
+        </p>
+    </div>
+
     <!-- Text Below Header -->
     <div class="max-w-3xl px-4 py-8 mx-auto text-center">
         <!-- Seeking Synths in bold -->
@@ -109,20 +123,6 @@
             is a captivating video series featuring 30-minute episodes in the spirit of Anthony Bourdain,
             where the host visits renowned musicians to explore their collections of vintage synthesizers
             and uncover how these iconic instruments have shaped their music.
-        </p>
-    </div>
-
-    <!-- Title & Credits Section -->
-    <div class="max-w-3xl px-4 py-8 mx-auto text-center">
-        <!-- Title SEEKING SYNTHS (BOLD) -->
-        <h1 class="font-helvetica font-bold text-4xl md:text-5xl lg:text-6xl tracking-[0.04em] mb-4">
-            SEEKING SYNTHS
-        </h1>
-        <!-- Host/Director/Editor etc. -->
-        <p class="font-helvetica font-normal text-base md:text-lg lg:text-xl tracking-[0.04em]">
-            Host: Jesse Beaman<br />
-            Director: Sam Mims<br />
-            Editor & Director of Photography: Lucas Fowler
         </p>
     </div>
 
