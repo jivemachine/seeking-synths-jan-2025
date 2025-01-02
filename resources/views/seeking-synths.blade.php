@@ -116,14 +116,15 @@
         <!-- Seeking Synths in bold -->
         <p class="font-helvetica font-bold text-2xl md:text-3xl lg:text-4xl tracking-[0.04em] mb-4">
             Seeking Synths
+            <!-- Follow Text with normal weight -->
+            <span class="font-helvetica font-normal text-2xl md:text-3xl lg-text:4xl tracking-0.04em">
+                is a captivating video series featuring 30-minute episodes in the spirit of Anthony Bourdain,
+                where the host visits renowned musicians to explore their collections of vintage synthesizers
+                and uncover how these iconic instruments have shaped their music.
+            </span>
         </p>
 
-        <!-- Follow Text with normal weight -->
-        <p class="font-helvetica font-normal text-2xl md:text-3xl lg-text:4xl tracking-0.04em">
-            is a captivating video series featuring 30-minute episodes in the spirit of Anthony Bourdain,
-            where the host visits renowned musicians to explore their collections of vintage synthesizers
-            and uncover how these iconic instruments have shaped their music.
-        </p>
+
     </div>
 
     <!-- Large image -->
