@@ -171,7 +171,7 @@
     <div class="max-w-3xl px-4 py-8 mx-auto text-center">
         <p class="font-helvetica font-bold text:xl md:text-2xl lg:text-3xl tracking-[0.04em]">
             Little Tony Clifton <br />
-            Jesse Beamen - Seeking Synths host
+            Jesse Beaman - Seeking Synths host
             <span class="font-normal">
                 (episode photos)
             </span>
