@@ -20,3 +20,4 @@ Disallow: /password/reset
 
 # Sitemap location
 Sitemap: {{ url('sitemap.xml') }}
+Sitemap: {{ url('sitemap-images.xml') }}
