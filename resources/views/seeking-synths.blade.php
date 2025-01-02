@@ -41,10 +41,20 @@
             "@type": "Person",
             "name": "Sam Mims"
           }],
-          "actor": [{
-            "@type": "Person",
-            "name": "Jesse Beaman"
-          }],
+          "actor": [
+            {
+                "@type": "Person",
+                "name": "Jesse Beaman"
+            },
+            {
+                "@type": "Person",
+                "name": "Joe Berry"
+            },
+            {
+                "@type": "Person",
+                "name": "Kaela Sinclair"
+            }
+          ],
           "director": [{
             "@type": "Person",
             "name": "Lucas Fowler"
