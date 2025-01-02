@@ -15,3 +15,18 @@ Route::get('/robots.txt', function () {
 Route::get('/sitemap.xml', function () {
     return response()->view('sitemap')->header('Content-Type', 'application/xml');
 });
+
+// Sitemape-images.xml page
+Route::get('/sitemap-images.xml', function () {
+    return response()->view('sitemap-images')->header('Content-Type', 'application/xml');
+});
+
+// Sitemap HTML page
+Route::get('/sitemap.html', function () {
+    // consider fetching pages from DB or a config
+    $pages = [
+        (object)['slug' => '/', 'title' => 'Home'],
+    ];
+
+    return view('sitemap-html', ['pages' => $pages]);
+});
