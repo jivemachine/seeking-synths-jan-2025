@@ -86,8 +86,8 @@
 <body class="w-full mx-auto text-white bg-black">
     <!-- Header Image with gradient -->
     <div class="relative w-full h-auto">
-        <img src="{{ asset('images/seeking-synths-tv-mockup-header-img.png') }}" alt="Header Image"
-            class="object-cover w-full h-auto" />
+        <img src="{{ asset('images/Seeking-Synths-TV-Header.png') }}"
+            alt="Image of Joe Berry & Kaela Sinclair jamming on thier keyboards" class="object-cover w-full h-auto" />
 
         <!-- gradient overlay -->
         <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
@@ -128,7 +128,8 @@
 
     <!-- Large image -->
     <div class="max-w-screen-xl px-4 py-8 mx-auto">
-        <img src="{{ asset('images/closeup.png') }}" alt="Closeup Image" class="w-full h-auto rounded-tl[100px]" />
+        <img src="{{ asset('images/joe-berry-keyboardcloseup.png') }}" alt="Closeup of Joe Berry playing keyboard"
+            class="w-full h-auto rounded-tl[100px]" />
     </div>
 
     <!-- Text before two side-by-side images & Get in Touch button -->
@@ -152,9 +153,9 @@
 
     <!-- Two images side by side -->
     <div class="grid max-w-screen-xl grid-cols-1 gap-4 px-4 py-8 mx-auto md:grid-cols-2">
-        <img src="{{ asset('images/Kaela-in-action.png') }}" alt="Kaela Sinclair from M83"
+        <img src="{{ asset('images/Kaela-in-action.png') }}" alt="Kaela Sinclair from M83 playing keys"
             class="w-full h-auto rounded-tl-[100px]" />
-        <img src="{{ asset('images/Joe-in-action.png') }}" alt="Joe Berry from M83"
+        <img src="{{ asset('images/Joe-in-action.png') }}" alt="Joe Berry from M83 playing the flute"
             class="w-full h-auto rounded-tl-[100px]" />
     </div>
 
@@ -170,9 +171,9 @@
 
     <!-- Two more images (Little Tony Clifton / Jesse Beaman) -->
     <div class="grid max-w-screen-xl grid-cols-1 gap-4 px-4 py-8 mx-auto md:grid-cols-2">
-        <img src="{{ asset('images/little-tony.png') }}" alt="Little Tony Clifton"
+        <img src="{{ asset('images/Little-Tony-Clifton-jamming.png') }}" alt="Little Tony Clifton"
             class="w-full h-auto rounded-tl-[100px]" />
-        <img src="{{ asset('images/Kaela-Sinclair.png') }}" alt="Kaela & Jesse looking at the sunset"
+        <img src="{{ asset('images/Kaela-Sinclair-and-Jesse-Beaman.png') }}" alt="Kaela & Jesse looking at the sunset"
             class="w-full h-auto rounded-tl-[100px]" />
     </div>
 
@@ -189,8 +190,8 @@
 
     <!-- Single Large Image Below -->
     <div class="max-w-screen-xl px-4 py-8 mx-auto">
-        <img src="{{ asset('images/hiking.png') }}" alt="Jesse, Joe, and Kaela hiking"
-            class="w-full h-auto rounded-tl-[100px]" />
+        <img src="{{ asset('images/joe-berry-kaela-sinclair-jesse-beaman-hiking.png') }}"
+            alt="Jesse, Joe, and Kaela hiking under the beatufil LA sunset" class="w-full h-auto rounded-tl-[100px]" />
     </div>
 
     <!-- Gradient at bottom of the page -->
