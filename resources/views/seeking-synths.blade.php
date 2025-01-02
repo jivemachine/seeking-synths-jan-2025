@@ -31,34 +31,40 @@
 
     <!-- Structured Data Markup -->
     <script type="application/ld+json">
-    {
+        {
           "@context": "https://schema.org",
           "@type": "TVSeries",
           "name": "Seeking Synths",
           "description": "A video series where host Jesse Beaman explores renowned musicians' collections of vintage synthesizers.",
           "genre": ["Documentary", "Music"],
-          "creator": [{
+          "creator": {
             "@type": "Person",
             "name": "Sam Mims"
-          }],
+          },
           "actor": [
             {
-                "@type": "Person",
-                "name": "Jesse Beaman"
+              "@type": "Person",
+              "name": "Jesse Beaman"
             },
             {
-                "@type": "Person",
-                "name": "Joe Berry"
+              "@type": "Person",
+              "name": "Joe Berry"
             },
             {
-                "@type": "Person",
-                "name": "Kaela Sinclair"
+              "@type": "Person",
+              "name": "Kaela Sinclair"
             }
           ],
-          "director": [{
-            "@type": "Person",
-            "name": "Lucas Fowler"
-          }],
+          "director": [
+            {
+              "@type": "Person",
+              "name": "Lucas Fowler"
+            },
+            {
+              "@type": "Person",
+              "name": "Sam Mims"
+            }
+          ],
           "image": "https://www.seekingsynths.com/images/logo.png",
           "url": "https://www.seekingsynths.com",
           "sameAs": [
@@ -66,7 +72,10 @@
             "https://www.instagram.com/seekingsynths",
             "https://www.twitter.com/seekingsynths"
           ],
-          "mainEntityOfPage": "https://www.seekingsynths.com"
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.seekingsynths.com"
+          }
         }
         </script>
 
