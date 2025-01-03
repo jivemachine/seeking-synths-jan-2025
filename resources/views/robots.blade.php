@@ -1,5 +1,3 @@
-# robots.txt for a Laravel Site
-
 # Allow all search engines
 User-agent: *
 Disallow: /vendor/
