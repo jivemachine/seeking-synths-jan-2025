@@ -98,9 +98,10 @@
     </div>
 
     <!-- Title & Credits Section -->
-    <div class="max-w-3xl px-4 py-8 mx-auto text-center">
+    <div class="relative z-10 max-w-3xl pt-8 mx-auto text-center md:-mt-[8rem] lg:-mt-[10rem]">
         <!-- Title SEEKING SYNTHS (BOLD) -->
-        <h1 class="font-helvetica font-bold text-4xl md:text-5xl lg:text-6xl tracking-[0.04em] mb-4">
+        <h1 class="font-helvetica
+        font-bold text-4xl md:text-5xl lg:text-6xl tracking-[0.04em] mb-4">
             SEEKING SYNTHS
         </h1>
         <!-- Host/Director/Editor etc. -->
@@ -112,12 +113,12 @@
     </div>
 
     <!-- Text Below Header -->
-    <div class="max-w-3xl px-4 py-8 mx-auto text-center">
+    <div class="max-w-3xl pt-8 mx-auto text-center">
         <!-- Seeking Synths in bold -->
         <p class="font-helvetica font-bold text-2xl md:text-3xl lg:text-4xl tracking-[0.04em] mb-4">
             Seeking Synths
             <!-- Follow Text with normal weight -->
-            <span class="font-helvetica font-normal text-2xl md:text-3xl lg-text:4xl tracking-0.04em">
+            <span class="font-helvetica font-normal text-2xl md:text-3xl lg:text-4xl tracking-0.04em">
                 is a captivating video series featuring 30-minute episodes in the spirit of Anthony Bourdain,
                 where the host visits renowned musicians to explore their collections of vintage synthesizers
                 and uncover how these iconic instruments have shaped their music.
@@ -126,13 +127,13 @@
     </div>
 
     <!-- Large image -->
-    <div class="max-w-screen-xl px-4 py-8 mx-auto">
+    <div class="max-w-screen-xl py-8 mx-auto px-11">
         <img src="{{ asset('images/joe-berry-keyboard-closeup.png') }}" alt="Closeup of Joe Berry playing keyboard"
             class="w-full h-auto rounded-tl[100px]" />
     </div>
 
     <!-- Text before two side-by-side images & Get in Touch button -->
-    <div class="max-w-2xl px-4 py-8 mx-auto text-center">
+    <div class="max-w-2xl py-8 mx-auto text-center">
         <p class="font-helvetica font-normal text-base md:text-lg lg:text-xl tracking-[0.04em]">
             The show delves into the guests' passion for vintage synthesizers and the distinctive sounds
             they create, revealing the stories behind the music, the musicians, and these rare instruments.
@@ -143,7 +144,7 @@
         <!-- Get in Touch Button -->
         <div class="my-8">
             <a href="mailto:contact@seekingsynths.com"
-                class="px-6 py-2 font-bold text-black bg-white rounded-full font-helvetica">
+                class="px-10 py-2 font-bold text-black bg-white rounded-full font-helvetica">
                 GET IN TOUCH
             </a>
         </div>
@@ -151,7 +152,7 @@
 
 
     <!-- Two images side by side -->
-    <div class="grid max-w-screen-xl grid-cols-1 gap-4 px-4 py-8 mx-auto md:grid-cols-2">
+    <div class="grid max-w-screen-xl grid-cols-1 gap-8 px-10 mx-auto md:grid-cols-2">
         <img src="{{ asset('images/Kaela-in-action.png') }}" alt="Kaela Sinclair from M83 playing keys"
             class="w-full h-auto rounded-tl-[100px]" />
         <img src="{{ asset('images/Joe-in-action.png') }}" alt="Joe Berry from M83 playing the flute"
@@ -159,8 +160,8 @@
     </div>
 
     <!-- Text Below Two Images (Kaela Sinclair / Joe Berry) -->
-    <div class="max-w-3xl px-4 py-8 mx-auto text-center">
-        <p class="font-helvetica font-bold text-xl md:text-2xl lg:text-3xl tracking-[0.04em]">
+    <div class="max-w-3xl py-8 mx-auto text-center">
+        <p class="font-helvetica font-bold text-2xl md:text-3xl lg:text-4xl tracking-[0.04em]">
             Kaela Sinclair &amp; Joe Berry <br />
             - music group M83 <br />
             <span class="font-normal">
@@ -170,7 +171,7 @@
     </div>
 
     <!-- Two more images (Little Tony Clifton / Jesse Beaman) -->
-    <div class="grid max-w-screen-xl grid-cols-1 gap-4 px-4 py-8 mx-auto md:grid-cols-2">
+    <div class="grid max-w-screen-xl grid-cols-1 gap-8 px-10 mx-auto md:grid-cols-2">
         <img src="{{ asset('images/Little-Tony-Clifton-jamming.png') }}" alt="Little Tony Clifton"
             class="w-full h-auto rounded-tl-[100px]" />
         <img src="{{ asset('images/Kaela-Sinclair-and-Jesse-Beaman.png') }}" alt="Kaela & Jesse looking at the sunset"
@@ -178,8 +179,8 @@
     </div>
 
     <!-- Text below little tony & sunset photo -->
-    <div class="max-w-3xl px-4 py-8 mx-auto text-center">
-        <p class="font-helvetica font-bold text:xl md:text-2xl lg:text-3xl tracking-[0.04em]">
+    <div class="max-w-3xl py-8 mx-auto text-center">
+        <p class="font-helvetica font-bold text-2xl md:text-3xl lg:text-4xl tracking-[0.04em]">
             Little Tony Clifton <br />
             Jesse Beaman - Seeking Synths host <br />
             <span class="font-normal">
@@ -189,7 +190,7 @@
     </div>
 
     <!-- Single Large Image Below -->
-    <div class="max-w-screen-xl px-4 py-8 mx-auto">
+    <div class="max-w-screen-xl mx-auto px-11">
         <img src="{{ asset('images/joe-berry-kaela-sinclair-jesse-beaman-hiking.png') }}"
             alt="Jesse, Joe, and Kaela hiking under the beatufil LA sunset" class="w-full h-auto rounded-tl-[100px]" />
     </div>
