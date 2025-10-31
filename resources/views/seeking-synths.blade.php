@@ -16,7 +16,7 @@
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Seeking Synths | Exploring Vintage Synthesizers with Renowned Musicians">
     <meta property="og:description"
-        content="Join host Jesse Beaman as he explores musicians' collections of vintage synthesizers.">
+        content="Join us as we explore musicians' collections of vintage synthesizers.">
     <meta property="og:image" content="https://www.seekingsynths.com/images/logo.png">
     <meta property="og:url" content="https://www.seekingsynths.com">
     <meta property="og:type" content="website">
@@ -25,7 +25,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Seeking Synths | Exploring Vintage Synthesizers with Renowned Musicians">
     <meta name="twitter:description"
-        content="Join host Jesse Beaman as he explores musicians' collections of vintage synthesizers.">
+        content="Join us as we explore musicians' collections of vintage synthesizers.">
     <meta name="twitter:image" content="https://www.seekingsynths.com/images/logo.png">
 
 
@@ -35,17 +35,13 @@
           "@context": "https://schema.org",
           "@type": "TVSeries",
           "name": "Seeking Synths",
-          "description": "A video series where host Jesse Beaman explores renowned musicians' collections of vintage synthesizers.",
+          "description": "A video series where we explore renowned musicians' collections of vintage synthesizers.",
           "genre": ["Documentary", "Music"],
           "creator": {
             "@type": "Person",
             "name": "Sam Mims"
           },
           "actor": [
-            {
-              "@type": "Person",
-              "name": "Jesse Beaman"
-            },
             {
               "@type": "Person",
               "name": "Joe Berry"
@@ -106,7 +102,6 @@
         </h1>
         <!-- Host/Director/Editor etc. -->
         <p class="font-helvetica font-normal text-base md:text-lg lg:text-xl tracking-[0.04em]">
-            Host: Jesse Beaman<br />
             Director: Sam Mims<br />
             Editor & Director of Photography: Lucas Fowler
         </p>
@@ -168,31 +163,6 @@
                 (episode photos)
             </span>
         </p>
-    </div>
-
-    <!-- Two more images (Little Tony Clifton / Jesse Beaman) -->
-    <div class="grid max-w-screen-xl grid-cols-1 gap-8 px-10 mx-auto md:grid-cols-2">
-        <img src="{{ asset('images/Little-Tony-Clifton-jamming.png') }}" alt="Little Tony Clifton"
-            class="w-full h-auto rounded-tl-[100px]" />
-        <img src="{{ asset('images/Kaela-Sinclair-and-Jesse-Beaman.png') }}" alt="Kaela & Jesse looking at the sunset"
-            class="w-full h-auto rounded-tl-[100px]" />
-    </div>
-
-    <!-- Text below little tony & sunset photo -->
-    <div class="max-w-3xl py-8 mx-auto text-center">
-        <p class="font-helvetica font-bold text-2xl md:text-3xl lg:text-4xl tracking-[0.04em]">
-            Little Tony Clifton <br />
-            Jesse Beaman - Seeking Synths host <br />
-            <span class="font-normal">
-                (episode photos)
-            </span>
-        </p>
-    </div>
-
-    <!-- Single Large Image Below -->
-    <div class="max-w-screen-xl mx-auto px-11">
-        <img src="{{ asset('images/joe-berry-kaela-sinclair-jesse-beaman-hiking.png') }}"
-            alt="Jesse, Joe, and Kaela hiking under the beatufil LA sunset" class="w-full h-auto rounded-tl-[100px]" />
     </div>
 
     <!-- Gradient at bottom of the page -->
